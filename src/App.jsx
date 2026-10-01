@@ -1,5 +1,5 @@
 import { Route, Routes, Navigate } from 'react-router-dom';
-import Mainlayout from "./layout/MainLayout";
+import MainLayout from "./layout/MainLayout";
 import Dashboard from './pages/Dashboard';
 import Users from './pages/Users';
 import Products from './pages/Products';
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route element={<Mainlayout />} >
+        <Route element={<MainLayout />} >
           <Route path='/' element={<Navigate to={'/dashboard'} replace />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/users' element={<Users />} />
