@@ -6,8 +6,6 @@ import Products from './pages/Products';
 import Orders from './pages/Orders';
 import Settings from './pages/Settings';
 import Profile from './pages/Profile';
-
-
 const App = () => {
   return (
     <div>
