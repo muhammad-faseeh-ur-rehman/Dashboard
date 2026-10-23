@@ -8,7 +8,6 @@ import Settings from './pages/Settings';
 import Profile from './pages/Profile';
 
 
-
 const App = () => {
   return (
     <div>
